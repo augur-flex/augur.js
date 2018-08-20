@@ -55,7 +55,7 @@
     "docker:geth:files": "scripts/copy-docker-files.sh augurproject/dev-pop-geth:core-$(node scripts/core-version.js)"
   },
   "dependencies": {
-    "async": "1.5.2",
+    "async": "^2.6.0",
     "augur-core": "1.1.0",
     "bignumber.js": "6.0.0",
     "clone": "2.1.1",
@@ -97,7 +97,6 @@
     "mocha-lcov-reporter": "0.0.2",
     "proxyquire": "1.7.11",
     "readline-sync": "1.4.9",
-    "shared-git-hooks": "1.2.1",
     "sinon": "2.0.0",
     "uglify-js": "2.6.1"
   },
